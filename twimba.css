@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+   user-select: none;
+   font-size: 17px;
+}
+h1{
+    color: #8CB9BD;
+    text-align: center;
+    margin-right: 200px;
+}
+header,main{
+    width: 290px;
+  margin: 0  auto;
+    
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right:10px;
+}
+.tweet-input-texarea{
+ display: flex;
+width: 100%;
+
+}
+textarea{
+   resize: none;
+   font-size: 15px;
+   border:none;
+   width: 100%;
+   height: 50px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tweet-button{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 50px;
+    border:none;
+    background-color: #40A2E3;
+    margin:10px ;
+    padding: 10px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.tmp{
+ display: flex;
+  width: 100%;
+  border-bottom: 2px solid #D7E4C0;
+  margin-top: 10px;
+}
+.tweet-details{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.redic{
+  color: red;
+}
+.green{
+    color: green;
+}
